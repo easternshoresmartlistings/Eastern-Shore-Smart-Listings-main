@@ -1,0 +1,29 @@
+{
+  "name": "eastern-shore-smart-listings-main",
+  "version": "1.0.0",
+  "description": "A single-page site: hero, three service highlights, and a contact section (form + direct email/phone). No backend required — hosting and the contact form are both free.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easternshoresmartlistings/Eastern-Shore-Smart-Listings-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/easternshoresmartlistings/Eastern-Shore-Smart-Listings-main/issues"
+  },
+  "homepage": "https://github.com/easternshoresmartlistings/Eastern-Shore-Smart-Listings-main#readme",
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.5",
+    "vite": "^8.2.1"
+  }
+}
