@@ -105,10 +105,15 @@ a { color: inherit; }
 .hero-copy {
   padding: clamp(48px, 6vw, 72px) clamp(24px, 4vw, 56px) 56px clamp(24px, 5vw, 64px);
   display: flex; flex-direction: column; justify-content: center;
+  border: 1px solid rgba(10, 16, 25, 1);
 }
 
 h1 {
-  font-family: var(--font-display);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: "Yuji Mai", serif;
   font-size: clamp(38px, 5vw, 56px);
   line-height: 1.05; font-weight: 800; margin: 0 0 20px; letter-spacing: -0.01em;
 }
