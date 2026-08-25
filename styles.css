@@ -92,19 +92,33 @@ a { color: inherit; }
 .hero-link:hover { color: var(--gold); }
 
 /* ---- Hero ---- */
+/* ---- Hero ---- */
 .hero {
-  padding: 0;
+  padding: 40px 24px 56px;
   background: rgb(14, 14, 14);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .hero-cover {
   display: block;
   width: 100%;
+  max-width: 760px; /* ← change this number to resize the image */
   height: auto;
   margin: 0 auto;
-  margin-right: auto;
+  border-radius: 8px;
   object-fit: cover;
   object-position: center;
   color: rgba(255, 255, 255, 1);
+}
+.hero-cta-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 28px;
 }
 .visually-hidden {
   position: absolute;
