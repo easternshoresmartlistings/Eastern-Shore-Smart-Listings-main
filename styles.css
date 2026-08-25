@@ -101,7 +101,10 @@ a { color: inherit; }
   width: 100%;
   height: auto;
   margin: 0 auto;
+  margin-right: auto;
   object-fit: cover;
+  object-position: center;
+  color: rgba(255, 255, 255, 1);
 }
 .visually-hidden {
   position: absolute;
